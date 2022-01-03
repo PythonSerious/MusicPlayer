@@ -14,17 +14,19 @@ os.system('mode con: cols=122 lines=19') # Set terminal window size
 
 consoleRun = False
 
+exeloc = str(sys.executable)
+
 if len(sys.argv) > 1:
     if sys.argv[1] == "--console":
         consoleRun = True
     elif sys.argv[1] == "--fresh": # Uninstalls all used modules to simulate a fresh install.
-        os.system("python3 -m pip uninstall pysimplegui")
-        os.system("python3 -m pip uninstall yt-dlp")
-        os.system("python3 -m pip uninstall spotipy")
-        os.system("python3 -m pip uninstall youtube-search-python")
-        os.system("python3 -m pip uninstall python-vlc")
-        os.system("python3 -m pip uninstall lyricsgenius")
-        os.system("python3 -m pip uninstall termcolor")
+        os.system(f"{exeloc} -m pip uninstall pysimplegui")
+        os.system(f"{exeloc}-m pip uninstall yt-dlp")
+        os.system(f"{exeloc} -m pip uninstall spotipy")
+        os.system(f"{exeloc} -m pip uninstall youtube-search-python")
+        os.system(f"{exeloc} -m pip uninstall python-vlc")
+        os.system(f"{exeloc} -m pip uninstall lyricsgenius")
+        os.system(f"{exeloc} -m pip uninstall termcolor")
         print("All modules uninstalled; re-run for fresh install.")
         exit(1)
     else:
@@ -47,10 +49,10 @@ except Exception as err:
     print(err)
     # We'll install the requirements.txt file again.
     try:
-        os.system("python3 -m pip install -r \"requirements.txt\"")
+        os.system(f"{exeloc} -m pip install -r \"requirements.txt\"")
     except:
-        os.system("python3 -m pip install --upgrade pip")
-        os.system("python3 -m pip install -r \"requirements.txt\"")
+        os.system(f"{exeloc} -m pip install --upgrade pip")
+        os.system(f"{exeloc} -m pip install -r \"requirements.txt\"")
     print("Installed requirements.")
 
 import modules.query
