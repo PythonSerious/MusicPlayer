@@ -1,0 +1,9 @@
+PySimpleGUI~=4.47.0
+spotipy~=2.19.0
+youtube-search-python~=1.5.1
+yt-dlp~=2021.11.10.1
+python-vlc~=3.0.12118
+lyricsgenius~=3.0.1
+termcolor~=1.1.0
+bs4~=0.0.1
+lxml~=4.6.4
