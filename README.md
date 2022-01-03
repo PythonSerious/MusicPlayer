@@ -3,6 +3,10 @@
 PyMusic Player is a music player written in python3. It harvests raw youtube URL's soundcloud URL's apple music URL's and spotify.
 
 
+### Installation
+
+Python __MUST__ be added to path, or else the requirements will not be able to self install.
+
 ### Configuration
 
 In order to enable spotify querys you must paste your API keys into the config.json file in /src
