@@ -6,6 +6,7 @@ PyMusic Player is a music player written in python3. It harvests raw youtube URL
 ### Installation
 
 Python __MUST__ be added to path, or else the requirements will not be able to self install.
+(gonna use sys to grab the py exe path to fix this.)
 
 ### Configuration
 
