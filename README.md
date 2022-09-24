@@ -19,17 +19,17 @@ Paste the client token and client secret in there and it will work.
 
 ### Pictures
 
-<img width=500px height=300px align="center" src="https://cdn.squarebot.app/python3.9_A2Tui54InJ.png">
+<img width=500px height=300px align="center" src="https://cdn.pythn.tech/python3.9_A2Tui54InJ.png">
 
 Logger console:
 
-<img width=800px height=300px align="center" src="https://cdn.squarebot.app/cmd_pszH5qEW3J.png">
+<img width=800px height=300px align="center" src="https://cdn.pythn.tech/cmd_pszH5qEW3J.png">
 
 
 Console Mode:
 ( meant for simple usage or debug. NOT pretty.)
 
-<img width=800px height=300px align="center" src="https://cdn.squarebot.app/cmd_f1QPtKaLz6.png">
+<img width=800px height=300px align="center" src="https://cdn.pythn.tech/cmd_f1QPtKaLz6.png">
 
 
 
